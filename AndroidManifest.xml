@@ -104,6 +104,7 @@
             android:targetActivity=".files.LauncherActivity"
             android:label="@string/launcher_label"
             android:exported="true"
+            android:enabled="@bool/is_launcher_enabled"
             android:icon="@drawable/launcher_icon" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
